@@ -32,7 +32,6 @@ public class Funcoes {
 
     public static List<Integer> RetornaImpares(Integer[] lista){
         List<Integer> retorno = new ArrayList<>();
-        int index = 0;
         for(Integer i : lista){
             if(i % 2 != 0){
                 retorno.add(i);
